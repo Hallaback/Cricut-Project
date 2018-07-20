@@ -1,29 +1,13 @@
+@import "./App.less";
+
 .App {
   text-align: center;
   font-family: 'Julius Sans One', sans-serif;
   margin-bottom: 100px;
 }
 
-.btn:hover .film {
-  animation: film-flip infinite 10s linear;
-}
-
-.btn:hover .soccer-ball {
-  animation: soccer-ball-spin infinite 20s linear;
-}
-
-.btn:hover .game-controller {
-  animation: tilt infinite 2s linear;
-}
-
-.App-hero {
-  width: 100%;
-  height: auto;
-}
-
-.info-button {
-  margin-top: 15px;
-  margin-bottom: 15px;
+.container-fluid {
+  padding: 0px;
 }
 
 .App-header {
@@ -41,9 +25,26 @@
   font-size: large;
 }
 
+.info-button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .btn {
   border-color: lightgray;
   padding: 15px;
+}
+
+.btn:hover .film {
+  animation: film-flip infinite 10s linear;
+}
+
+.btn:hover .soccer-ball {
+  animation: soccer-ball-spin infinite 20s linear;
+}
+
+.btn:hover .game-controller {
+  animation: tilt infinite 2s linear;
 }
 
 @keyframes film-flip {
