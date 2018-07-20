@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  margin-bottom: 100px;
+}
+
+.btn:hover .film {
+  animation: film-flip infinite 10s linear;
+}
+
+.btn:hover .soccer-ball {
+  animation: soccer-ball-spin infinite 20s linear;
+}
+
+.btn:hover .game-controller {
+  animation: tilt infinite 2s linear;
+}
+
+.App-hero {
+  width: 100%;
+  height: auto;
+}
+
+.info-button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.App-header {
+  height: 150px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-info {
+  /* animation: section-fade-up infinite 20s linear; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: large;
+}
+
+.btn {
+  border-color: lightgray;
+  padding: 15px;
+}
+
+@keyframes film-flip {
+  from { transform: rotateX(0deg); }
+  to { transform: rotateX(360deg); }
+}
+
+@keyframes soccer-ball-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes tilt {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-15deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(15deg); }
+    100% { transform: rotate(0deg); }
+}
