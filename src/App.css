@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-hero {
+  width: 100%;
+  height: auto;
+}
+
+.App-header {
+  height: 150px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-info {
+  /* animation: section-fade-up infinite 20s linear; */
+  margin-top: 50px;
+  font-size: large;
+}
+
+.Interest-title {
+  padding-top: 15px;
+}
+
+@keyframes section-fade-up {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

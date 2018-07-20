@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="401px" viewBox="0 0 800 401" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Wooden Sign</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wooden-Sign">
+            <rect id="Rectangle" stroke="#979797" fill="#F1EFED" x="0.5" y="0.5" width="799" height="65"></rect>
+            <rect id="Rectangle" stroke="#979797" fill="#F1EFED" x="0.5" y="67.5" width="799" height="65"></rect>
+            <rect id="Rectangle" stroke="#979797" fill="#F1EFED" x="0.5" y="134.5" width="799" height="65"></rect>
+            <rect id="Rectangle" stroke="#979797" fill="#F1EFED" x="0.5" y="201.5" width="799" height="65"></rect>
+            <rect id="Rectangle" stroke="#979797" fill="#F1EFED" x="0.5" y="268.5" width="799" height="65"></rect>
+            <rect id="Rectangle" stroke="#979797" fill="#F1EFED" x="0.5" y="335.5" width="799" height="65"></rect>
+            <text id="Hello-World!" filter="url(#filter-2)" font-family="SignPainter-HouseScript, SignPainter" font-size="288" font-style="condensed" font-weight="normal" fill="#58B3CA">
+                <tspan x="64" y="258">H</tspan>
+                <tspan x="204.544" y="258" font-size="116">ello </tspan>
+                <tspan x="359.056" y="258">W</tspan>
+                <tspan x="540.496" y="258" font-size="116">orld!</tspan>
+            </text>
+            <circle id="Oval" fill="#ADA8A8" cx="15" cy="15" r="4"></circle>
+            <circle id="Oval" fill="#ADA8A8" cx="783" cy="15" r="4"></circle>
+            <circle id="Oval" fill="#ADA8A8" cx="15" cy="385" r="4"></circle>
+            <circle id="Oval" fill="#ADA8A8" cx="783" cy="385" r="4"></circle>
+        </g>
+    </g>
+</svg>
