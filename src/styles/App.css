@@ -1,13 +1,14 @@
-@import "./App.less";
-
 .App {
   text-align: center;
   font-family: 'Julius Sans One', sans-serif;
-  margin-bottom: 100px;
 }
 
 .container-fluid {
   padding: 0px;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .App-header {
@@ -19,20 +20,68 @@
 }
 
 .App-info {
-  /* animation: section-fade-up infinite 20s linear; */
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   font-size: large;
 }
 
-.info-button {
+.hero-container {
+  background: url("../assets/danceFaces.jpg") no-repeat top;
+  background-size: cover;
+  width: 100%;
+  min-height: 400px;
+  filter: grayscale(50%);
+}
+
+.info-container {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.btn {
+#proposal {
+  margin-bottom: 50px;
+}
+
+.video-title {
+  padding-bottom: 10px;
+}
+
+.video-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+
+.lol-logo.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lol-logo {
+  margin-top: 20px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.lol-logo.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.btn.info-button {
   border-color: lightgray;
   padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn:hover .film {
