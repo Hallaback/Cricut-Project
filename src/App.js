@@ -16,9 +16,7 @@ class App extends Component {
           <div className="hero-container"></div>
         </section>
 
-        <Fade left>
-          <MyInfo></MyInfo>
-        </Fade>
+        <MyInfo></MyInfo>
 
         <Fade bottom>
           <section id="proposal" className="container">
